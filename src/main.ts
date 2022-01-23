@@ -43,7 +43,7 @@ const camera = new PerspectiveCamera(fov, aspect, near, far);
 
 // every object is initially created at ( 0, 0, 0 )
 // move the camera back so we can view the scene
-camera.position.set(12.7, 3, -7.7);
+camera.position.set(-18.7, 10, 26.7);
 
 // additional scene objects
 await setupScene(scene);

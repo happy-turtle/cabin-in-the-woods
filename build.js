@@ -15,7 +15,7 @@ exec("tsc", (error, stdout, stderror) => {
     .build({
       entryPoints: [".//src/main.ts"],
       bundle: true,
-      outfile: "/public/dist/src/main.js",
+      outfile: "/public/src/main.js",
       minify: true,
       format: "esm",
       target: ["esnext"],

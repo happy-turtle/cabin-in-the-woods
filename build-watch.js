@@ -4,7 +4,6 @@ require("esbuild").build({
   bundle: true,
   outfile: "/public/src/main.js",
   minify: true,
-  sourcemap: true,
   watch: {
     onRebuild(error, result) {
       if (error) console.error("esbuild failed:", error);
