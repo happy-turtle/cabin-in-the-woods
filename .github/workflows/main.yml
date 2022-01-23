@@ -38,4 +38,4 @@ jobs:
           forceSsl: true
           # Local directory
           localDir: public
-          options: "--delete --asci"
+          args: "--delete --asci"
