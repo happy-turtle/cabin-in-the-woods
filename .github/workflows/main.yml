@@ -37,5 +37,5 @@ jobs:
           # Force SSL encryption
           forceSsl: true
           # Local directory
-          localDir: public
+          localDir: "public"
           options: "--delete --asci"
