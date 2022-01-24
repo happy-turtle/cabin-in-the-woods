@@ -27,12 +27,12 @@ const build = (watch) => {
       // if any error while executing
       if (error) {
         console.error("Error: ", error);
+        console.error(stderror); // std errors
+        console.log(stdout); // output from stdout
         return;
       }
 
       console.log("compiled with tsc");
-      console.log(stdout); // output from stdout
-      console.error(stderror); // std errors
 
       esbuild
         .build(esBuildSettings)
